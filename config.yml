@@ -1,0 +1,12 @@
+default:
+  site:
+    review_period: '13 months'
+    spaces:
+      -
+        space_path: clients/python
+        space_name: Client SDK - Python
+    dev_browser_path: /
+  verify_paths:
+    - index.html
+development:
+  isDev: true
